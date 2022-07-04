@@ -1,11 +1,10 @@
 import './App.css';
 
-function App() {
-  var name = "Akash";
+function App(prop) {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>Hello {name}</h1>
+      <h1>Hello {prop.name}</h1>
 
       </header>
     </div>
